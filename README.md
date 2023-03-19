@@ -9,7 +9,7 @@
 
 ----------------
 # 本地调试 安装依赖包后， python manage.py run即可  成功可以访问http://127.0.0.1:5000/index
-#项目使用的数据库是sqlite
+# 项目使用的数据库是sqlite
 ## 配置文件都在config.py，可以根据自己的实际情况进行修改
 # 在启动的过程中，可能会因为没有jenkis服务，jenkins的相关的代码已经注销。如果需要jenkins代码可以在app/home/views.py,app/home/urls.py,app/templates/back.html恢复即可。
 ### flask +gevent+nginx+Gunicorn+supervisor部署flask应用请用flaskapi_su.conf，用gunicorn部署应用。
@@ -48,7 +48,8 @@
 ### 12.升级系统使用的日志框架（完成）
 
 ## [其他版本更新日志](https://github.com/liwanlei/FXTest/blob/master/versions.md)
-# 有问题可以联系我，增加定制开发。QQ&微信:952943386  java 版本的平台暂无开源计划。
+# 有问题可以联系我，增加定制开发。QQ&微信:952943386 
+![Alt text](https://github.com/liwanlei/FXTest/blob/master/image/wx.jpeg)
 # Email:leileili126@163.com  qq群：194704520  python接口测试：651392041 请入群人员正确回答问题。
 
 # 个人公众号，持续更新系列文章。欢迎你关注。
